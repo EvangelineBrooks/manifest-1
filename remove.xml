@@ -80,4 +80,3 @@
   <remove-project name="platform/vendor/qcom/thulium" />
   <remove-project name="platform/vendor/qcom/titanium_32" />
   <remove-project name="platform/vendor/qcom/titanium_64" />
-<!-- REMOVE PROJECTS -->
