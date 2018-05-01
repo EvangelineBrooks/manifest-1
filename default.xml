@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+    <remote  name="zuk"
+             fetch="https://github.com/zuk-caf"
+             revision="refs/heads/8.1" />
+
+   <remote  name="github"
+            fetch="https://github.com" />
+
+  <remote  name="github-ssh"
+           fetch="ssh://git@github.com" />
+
   <remote fetch="git://codeaurora.org/quic/la" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="refs/heads/android-external.lnx.2.9.1-rel"/>
   <project name="device/common" revision="android-framework.lnx.2.9.2.r6-rel"/>
@@ -611,6 +622,9 @@
 
   <!-- Remove -->
   <include name="remove.xml"/>
+
+   <!-- Zuk-repos -->
+  <include name="zuk.xml"/>
 
 </manifest>
 
