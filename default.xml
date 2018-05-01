@@ -608,5 +608,9 @@
   <project name="platform/vendor/qcom/titanium_32" path="device/qcom/msm8953_32" revision="qcom-devices.lnx.2.0.r5-rel"/>
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" revision="qcom-devices.lnx.2.0.r5-rel"/>
   <project name="toolchain/binutils" revision="android-framework.lnx.2.9.2.r6-rel"/>
+
+  <!-- Remove -->
+  <include name="remove.xml"/>
+
 </manifest>
 
